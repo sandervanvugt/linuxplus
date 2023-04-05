@@ -1,1 +1,1 @@
-files for my Linux+ course
+This Git repository contains supporting files for my all versions of my Linux+ videocourse
