@@ -1,0 +1,13 @@
+---
+- name: install start and enable httpd
+  hosts: all
+  tasks:
+  - name: install package
+    package:
+      name: apache2
+      state: latest
+  - name: start and enable service
+    service:
+      name: apache2
+      state: started
+      enabled: yes
